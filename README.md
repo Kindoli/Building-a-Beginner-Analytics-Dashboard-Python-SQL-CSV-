@@ -4,14 +4,18 @@ This project is a beginner-friendly end-to-end data pipeline that demonstrates h
 
 It is designed as an introductory project for anyone learning data engineering, data analytics, or Python-based ETL pipelines.
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 📦 Beginner_Data_Pipeline_Python_SQL_CSV_file
  ┣ 📄 README.md
+ 
  ┣ 📄 pipeline.py
+ 
  ┣ 📄 dashboard.py
- ┣ 📄 sales_data.csv
- ┗ 📄 requirements.txt
+ 
+ ┣ 📄 sales_data.xlsx
+ 
+
 
  ## Data Architechture Diagram 
 
