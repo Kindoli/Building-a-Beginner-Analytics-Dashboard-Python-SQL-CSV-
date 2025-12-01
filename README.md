@@ -4,7 +4,7 @@ This project is a beginner-friendly end-to-end data pipeline that demonstrates h
 
 It is designed as an introductory project for anyone learning data engineering, data analytics, or Python-based ETL pipelines.
 
-### 📁 Project Structure
+### 📁 Project Structure 
 
 📦 Beginner_Data_Pipeline_Python_SQL_CSV_file
 
@@ -43,7 +43,7 @@ It is designed as an introductory project for anyone learning data engineering, 
 
  - Pandas
 
- - SQLite
+ - SQLite3
 
  - SQLAlchemy
 
@@ -51,13 +51,15 @@ It is designed as an introductory project for anyone learning data engineering, 
 
 ### 📊 Example Insights Generated
 
-- Total sales
+- The first five products
 
-- Sales by product category
+- Total Revenue
 
-- Monthly sales trends
+- Revenue by Region
 
 - Top-performing products
+
+- Daily Sales Trend by products 
 
 - Summary statistics
 
