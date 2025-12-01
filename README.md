@@ -7,6 +7,7 @@ It is designed as an introductory project for anyone learning data engineering, 
 ### 📁 Project Structure
 
 📦 Beginner_Data_Pipeline_Python_SQL_CSV_file
+
  ┣ 📄 README.md
  
  ┣ 📄 pipeline.py
