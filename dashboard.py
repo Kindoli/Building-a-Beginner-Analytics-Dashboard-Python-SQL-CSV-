@@ -23,26 +23,6 @@ Total_revenue = query("Select sum(Amount * Boxes) as " \
 
 st.metric("Total Revenue", f"${Total_revenue:,.2f}")
 
-# Creating a filter
-
-st.subheader("Filter by Region and Product")
-
-filter_df = query("Select Geography, Product from Sales_Data")
-
-# Unique lists
-regions = sorted(filter_df["Geography"].dropna().unique().tolist())
-products = sorted(filter_df["Product"].dropna().unique().tolist())
-
-selected_regions = st.multiselect(
-    "Select Region(s)",
-    options=regions
-)
-
-selected_products = st.multiselect(
-    "Select Product(s)",
-    options=products
-)
-
 # Revenue by Region
 
 st.subheader("Revenue by Region")
