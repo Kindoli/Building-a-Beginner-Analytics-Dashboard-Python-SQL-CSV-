@@ -18,12 +18,12 @@ It is designed as an introductory project for anyone learning data engineering, 
  
 
 
- ## Data Architechture Diagram 
+ ### Data Architechture Diagram 
 
  ![Beginner_Pi](https://github.com/user-attachments/assets/2e69579f-6eee-4b58-9915-fc6df4272f9c)
 
 
-## 🚀 Features
+### 🚀 Features
 
 - Import data from a CSV file
 
@@ -37,7 +37,7 @@ It is designed as an introductory project for anyone learning data engineering, 
 
 - Beginner-friendly, fully documented Python code
 
-## 🛠 Technologies Used
+### 🛠 Technologies Used
 
  - Python 3.x
 
@@ -49,7 +49,7 @@ It is designed as an introductory project for anyone learning data engineering, 
 
 - Altair (statistical visualization library)
 
-## 📊 Example Insights Generated
+### 📊 Example Insights Generated
 
 - Total sales
 
@@ -61,7 +61,7 @@ It is designed as an introductory project for anyone learning data engineering, 
 
 - Summary statistics
 
-## ▶️ How to Run the Project
+### ▶️ How to Run the Project
 
 1. Clone the Repository
 git clone https://github.com/Kindoli/Building-a-Beginner-Analytics-Dashboard-Python-SQL-CSV-.git
@@ -76,11 +76,11 @@ python pipeline.py
 
 This will:
 
-Load the CSV
+- Load the CSV
 
-Clean the data
+- Clean the data
 
-Insert it into the SQL database (sales.db)
+- Insert it into the SQL database (sales.db)
 
 4. Run the Dashboard Script
 python dashboard.py
@@ -88,11 +88,11 @@ python dashboard.py
 
 This will generate charts and summary tables.
 
-## Streamlit Dashboard snapshot
+### Streamlit Dashboard snapshot
 <img width="602" height="379" alt="dasbboard_image" src="https://github.com/user-attachments/assets/9592be29-4de9-45f3-afa4-e0cc3bbaec02" />
 
 
-## 📂 Sample Code Snippet
+### 📂 Sample Code Snippet
 
 df = pd.read_excel("sales_data.xlsx")
 
@@ -100,7 +100,7 @@ df_clean = df.dropna()
 
 df_clean.to_sql("Sales_data", conn, if_exists="replace", index=False)
 
-## 📘 Learning Objectives
+### 📘 Learning Objectives
 
 This project helps beginners learn:
 
@@ -114,7 +114,7 @@ This project helps beginners learn:
 
 - Structuring a real-world mini data pipeline
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Pull requests are welcome!
 Feel free to submit improvements or additional analytics steps.
