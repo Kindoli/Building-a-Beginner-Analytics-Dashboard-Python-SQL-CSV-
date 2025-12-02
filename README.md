@@ -6,7 +6,7 @@ It is designed as an introductory project for anyone learning data engineering, 
 
 ### 📁 Project Structure 
 
-📦 Beginner_Data_Pipeline_Python_SQL_CSV_file 
+📦 Beginner_Data_Pipeline_Python_SQL_CSV_file  
 
  ┣ 📄 README.md
  
@@ -69,10 +69,7 @@ It is designed as an introductory project for anyone learning data engineering, 
 git clone https://github.com/Kindoli/Building-a-Beginner-Analytics-Dashboard-Python-SQL-CSV-.git
 cd Building-a-Beginner-Analytics-Dashboard-Python-SQL-CSV-
 
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Run the Pipeline
+2. Run the Pipeline
 python pipeline.py
 
 
