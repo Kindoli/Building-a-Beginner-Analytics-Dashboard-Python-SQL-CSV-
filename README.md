@@ -61,8 +61,6 @@ It is designed as an introductory project for anyone learning data engineering, 
 
 - Daily Sales Trend by products 
 
-- Summary statistics
-
 ### ▶️ How to Run the Project
 
 1. Clone the Repository
